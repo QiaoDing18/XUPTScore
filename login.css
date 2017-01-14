@@ -1,0 +1,152 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+}
+.background{
+	position: fixed;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+}
+.background>img{
+	width: 100%;
+	height: 100%;
+}
+/*内容*/
+.main-box{
+	width: 100%;
+	height: 100%;
+}
+/*头*/
+.main-box>.header{
+	position: fixed;
+	width: 100%;
+	height: 7rem;
+	background: url("../img/banner.png") repeat top;
+	background-size: 2rem 100%;
+}
+.header>.return{
+	float: left;
+	height: 6rem;
+	width: 7rem;
+	margin-top: .5rem;
+	margin-left: 1rem;
+	background: url(../img/return.png) no-repeat;
+	background-size: 100% 100%;
+}
+.header>.return:active{
+	background: url(../img/return2.png) no-repeat;
+	background-size: 100% 100%;
+}
+.header>p{
+	width: 100%;
+	height: 7rem;
+	margin-left: -8rem;
+	line-height: 7rem;
+	text-align: center;
+	font-size: 2rem;
+	color: white;
+}
+
+
+/*尾*/
+.bottom{
+	position: fixed;
+	height: 8rem;
+	width: 100%;
+	bottom: 0;
+	background: url(../img/bottom.png) repeat;
+	background-size: 8rem 100%;
+}
+.bottom>p{
+	float: left;
+	height: 4rem;
+	width: 4rem;
+	line-height: 4rem;
+	font-size: 1.3rem;
+	margin-top: 2rem;
+	margin-left: 1rem;
+}
+.bottom>select{
+	float: left;
+	height: 4rem;
+	width: 12rem;
+	font-size: 1.8rem;
+	margin-top: 2rem;
+	margin-left: .2rem;
+	text-indent: .7rem;
+}
+.bottom>button{
+	float: right;
+	height: 4rem;
+	width: 8rem;
+	font-size: 2rem;
+	margin-top: 2rem;
+	margin-right: 1rem;
+	border-radius: 1rem;
+}
+
+/*内容*/
+.content{
+	float: left;
+	width: 100%;
+	margin-top: 8rem;
+	margin-bottom: 10rem;
+}
+/*信息结果*/
+.showInf{
+	float: left;
+	margin-top: 2rem;
+	width: 100%;
+}
+.showInf>.xiyou3g{
+	float: left;
+	width: 5rem;
+	height: 5rem;
+	margin-left: 1rem;
+}
+.showInf>.triangle1{
+	float: left;
+	width: 1.1rem;
+	height: 1.4rem;
+	margin-left: 1.2rem;
+	margin-top: 1.8rem;
+}
+.showInf>.infBox1{
+	float: left;
+	max-width: 30rem;
+	padding: 1.5rem;
+	margin-left: -0.1rem;
+	border-radius: 1rem;
+	font-size: 1.7rem;
+	background-color: #19CC28;
+}
+
+.askBox{
+	float: right;
+	margin-top: 2rem;
+	width: 100%;
+}
+.askBox>.user{
+	float: right;
+	width: 5rem;
+	height: 5rem;
+	margin-right: 1rem;
+}
+.askBox>.triangle2{
+	float: right;
+	width: 1.1rem;
+	height: 1.4rem;
+	margin-right: 1.2rem;
+	margin-top: 1.8rem;
+}
+.askBox>.infBox2{
+	float: right;
+	max-width: 30rem;
+	padding: 1.5rem;
+	margin-right: -0.1rem;
+	border-radius: 1rem;
+	font-size: 1.7rem;
+	background-color: white;
+}
